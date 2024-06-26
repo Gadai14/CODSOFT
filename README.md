@@ -1,11 +1,11 @@
 
 <img src="https://github.com/Gadai14/CODSOFT/assets/121002242/6ef004ec-d098-4ddc-9bd0-0e1a9e2a1e36">
-<img src="https://github.com/Gadai14/CODSOFT/assets/121002242/c4e585cc-41de-4123-b16b-2ff5b145bdaf"height=440px width=340px>
+<img src="https://github.com/Gadai14/CODSOFT/assets/121002242/c4e585cc-41de-4123-b16b-2ff5b145bdaf">
 
 
 <p align="center">
-<img src="https://github.com/Gadai14/CODSOFT/assets/121002242/99e906dc-e77d-48a9-a251-b59997d56208"height=440px width=340px>
-<img src="https://github.com/Gadai14/CODSOFT/assets/121002242/ce40378f-7d0c-4a6b-90d6-1213a264b244"height=440px width=340px>
+<img src="https://github.com/Gadai14/CODSOFT/assets/121002242/99e906dc-e77d-48a9-a251-b59997d56208"height=440px width=380px>
+<img src="https://github.com/Gadai14/CODSOFT/assets/121002242/ce40378f-7d0c-4a6b-90d6-1213a264b244"height=440px width=380px>
 </p>
 
 
