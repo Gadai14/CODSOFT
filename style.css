@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto+Mono&family=Rubik:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik;
+    
+   }
+   body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a , #3d434b);
+   }
+   .Calculator{
+    border: 2px solid #717377;
+    box-shadow: 0px 3px 15px rgba(113,115,119,0.6);
+    border-radius: 40px;
+    background: transparent;
+    margin-bottom: 6px;
+   }
+   .display{
+    padding: 13px;
+    padding-top: 10px;
+   }
+    .abhi{
+        padding-left: 25px;
+        padding-bottom: 20px;
+        
+    
+    }
+    
+   
+   input{
+    width: 400px;
+    border:none;
+    padding: 24px;
+    margin:10px;
+    margin-top: 18px;
+    box-shadow: 0px 3px 15px rgba(84,84,84,0.2);
+    font-size: 39px;
+    cursor: pointer;
+    text-align: right;
+    background: transparent;
+    border-radius: 20px;
+    color: white;
+
+   }
+   .myinput::placeholder{
+    color: #ffffff;
+   }
+   
+   button{
+   
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 8.5px;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    box-shadow:-5px -5px 14px rgba(52, 52, 52, 0.406) ;
+    cursor: pointer;
+   }
+   button:hover {
+        box-shadow: inset -3px -3px 3px rgba(255,255,255,0.2) ,
+            inset -3px -3px 4px  rgba(255,255,255,0.2);
+        
+    }
+    /* Remove the blue highlight when button is clicked */
+button:focus, button:active {
+    outline: none;
+    -webkit-tap-highlight-color: transparent; /* For older versions of iOS */
+}
+
+   .del ,.ac{
+    background-color: #fb7c147a;
+    
+   
+   }
+   
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns of equal width */
+    gap: 63px; /* Adjust the gap between the columns as needed */
+}
+
+.left-column,
+.right-column {
+    display: flex;
+    flex-direction: row;
+   
+}
+#gadai{
+    color: rgb(18, 241, 241);
+}
+@media screen and (min-width : 385px) and (max-width:463px)
+{ 
+    input {
+        width: 95%;
+        font-size: 20px;
+        padding-right: 10px;
+    }
+    button {
+        width: 60px;
+        height: 60px;
+        font-size: 14px;
+    }
+    .display {
+        padding: 8px;
+    }
+    .grid-container {
+        grid-template-columns: repeat(0, 1fr);
+        gap: 70px;
+    }
+    .abhi {
+        padding: 10px;
+        
+      
+    }
+    .right-column{
+        gap: 0px;
+        margin-left: 2px;
+    }
+    button {
+        margin: 4px;
+    }
+    .Calculator {
+        border-radius: 40px;
+      padding-bottom: 17px;
+      padding-top: 17px;
+      
+    
+    }
+    .btn {
+        font-size: 18px;
+    }
+}
+@media (max-width: 384px) {
+    .Calculator {
+      
+     
+        border: none;
+        border-radius: 0;
+        padding-left: 10px;
+    }
+    
+    input {
+        width: 96%;
+        font-size: 18px;
+   margin-left: 0px;
+   padding-left: 0px;
+       
+    }
+
+    button {
+        width: 40px;
+        height: 40px;
+        font-size: 12px;
+        margin: 4px;
+    }
+
+    .display {
+        padding: 8px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(0, 1fr);
+        gap: 50px;
+    }
+
+    .abhi {
+        padding: 10px;
+    }
+
+    .right-column {
+        gap: 0px;
+        margin-left: 2px;
+    }
+
+    .Calculator {
+        border-radius: 30px;
+        padding-bottom: 10px;
+        padding-top: 40px;
+    }
+
+    .btn {
+        font-size: 15px;
+    }
+}
+
+    

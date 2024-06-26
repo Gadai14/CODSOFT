@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator Created By Abhijit</title>
+  
+        <link rel="stylesheet " href="style.css">
+</head>
+   
+
+
+<body>
+
+    <div class="Calculator">
+        <div class="display">
+            <input id="screen" class="myinput"type="text" placeholder="0">
+        </div>
+
+       
+           
+
+            <div class="abhi">
+                <div class="grid-container">
+                    <div class="left-column">
+                    <button onclick="fact()">x!</button>
+                    <button onclick="sqrt()" style="margin-left: 8px;">√</button>
+                    </div>
+                    <div class="right-column">
+                      
+                    <button class="btn">(</button>
+                    &nbsp;
+                    <button class="btn">)</button>
+                    
+                </div>
+                </div>
+                <div>
+                    <button onclick="pow()">x <span style="position: relative; bottom: .4em; right: .1em;">2</span>
+                    </button>
+                <button onclick="log()">log</button>
+                <button onclick="sin()">sin</button>
+                
+                <button onclick="cos()">cos</button>
+                <button onclick="tan()">tan</button>
+            </div>
+          
+            <div>
+               
+                
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button id="ce" onclick="backspc()"class="del">DEL</button>
+                <button id="ac" onclick="screen.value=''"class="ac">AC</button>
+               
+            </div>
+
+            <div>
+                
+                
+                <button class="btn">4</button>
+                <button class="btn">5</button>
+                <button class="btn">6</button>
+                <button class="btn"id="gadai">×</button>
+                <button class="btn"id="gadai">÷</button>
+            </div>
+
+            <div>
+                <button class="btn">1</button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+                <button class="btn"id="gadai">+</button>
+                <button class="btn"id="gadai">-</button>
+            </div>
+
+            <div>
+                <button class="btn">0</button>
+                <button class="btn">.</button>
+                <button onclick="pi()">π</button>
+                
+                <button class="btn"id="gadai">%</button>
+                <button id="eval" onclick="screen.value=eval(screen.value)">=</button>
+                
+            </div>
+        </div>
+    </div>
+
+<script src="script.js">
+</script>
+</body>
+</html>
