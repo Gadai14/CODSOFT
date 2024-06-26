@@ -4,7 +4,7 @@
 
 
 <p align="center">
-<img src="https://github.com/Gadai14/CODSOFT/assets/121002242/99e906dc-e77d-48a9-a251-b59997d56208"height=460px width=360px>
+<img src="https://github.com/Gadai14/CODSOFT/assets/121002242/99e906dc-e77d-48a9-a251-b59997d56208"height=460px width=340px>
 <img src="https://github.com/Gadai14/CODSOFT/assets/121002242/ce40378f-7d0c-4a6b-90d6-1213a264b244"height=460px width=360px>
 </p>
 
